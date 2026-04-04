@@ -1,11 +1,11 @@
 # FastAPI CRUD Application
 
-## 📌 Description
+##  Description
 This is a simple FastAPI application that implements basic Create and Read (CRUD) operations using a SQLite database. The API is built using FastAPI and SQLAlchemy.
 
 ---
 
-## 🚀 Features
+##  Features
 - Create Items (POST)
 - Read Items (GET)
 - SQLite Database Integration
@@ -13,7 +13,7 @@ This is a simple FastAPI application that implements basic Create and Read (CRUD
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 - FastAPI
 - SQLAlchemy
 - SQLite
@@ -34,7 +34,7 @@ http://127.0.0.1:8000/docs
 
 ---
 
-## 🌐 API Endpoints
+##  API Endpoints
 
 - GET / → Check API status  
 - GET /health → Health check  
@@ -43,7 +43,7 @@ http://127.0.0.1:8000/docs
 
 ---
 
-## 📦 Example Request (POST /items/)
+##  Example Request (POST /items/)
 
 {
   "name": "Laptop",
@@ -51,11 +51,10 @@ http://127.0.0.1:8000/docs
 }
 
 ---
-
-## 🌍 Live Deployment
-(Add your deployed link here after deployment)
+##  Live Deployment
+https://fastapi-crud-3deh.onrender.com/docs
 
 ---
 
-## 👨‍💻 Author
+##  Author
 Sai Kiran
