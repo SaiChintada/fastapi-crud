@@ -4,7 +4,7 @@ This is the frontend of a full-stack CRUD application built using React (Vite). 
 
 ## Live Demo
 
-Frontend: https://your-vercel-link
+Frontend: https://fastapi-crud-iota.vercel.app/
 Backend API: https://fastapi-crud-3deh.onrender.com
 
 ## Tech Stack
