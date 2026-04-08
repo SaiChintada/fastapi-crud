@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import Form from "./components/Form";
-import List from "./components/List";
+import Form from "./components/form";
+import List from "./components/list";
 
 const API = "https://fastapi-crud-3deh.onrender.com/items/";
 

@@ -1,16 +1,56 @@
-# React + Vite
+# FastAPI React CRUD Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend of a full-stack CRUD application built using React (Vite). It interacts with a FastAPI backend to perform create, read, update, and delete operations.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Frontend: https://your-vercel-link
+Backend API: https://fastapi-crud-3deh.onrender.com
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+React (Vite)
+JavaScript
+CSS
+Fetch API
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Create new items
+Read all items
+Update existing items
+Delete items
+Search functionality for filtering items
+Display total item count
+Clean and responsive user interface
+
+## Project Structure
+
+src/
+components/
+Form.jsx
+List.jsx
+App.jsx
+main.jsx
+
+## API Integration
+
+The frontend communicates with the FastAPI backend using REST APIs.
+
+GET /items/
+POST /items/
+PUT /items/{id}
+DELETE /items/{id}
+
+## Run Locally
+
+npm install
+npm run dev
+
+## Deployment
+
+The frontend is deployed using Vercel, and the backend is deployed on Render.
+
+## Author
+
+Sai Kiran
